@@ -13,8 +13,8 @@ A Virtual Private Cloud is an isolated private cloud located within a public clo
 ***source: https://www.slideteam.net/standard-cloud-service-models-cloud-computing-service-models.html****
 ## How does a VPC work?
 Through the allocation of private IP subnet and a virtual communication construct such as a VLAN or a set of encrypted communication channels per user, the isolation between one VPC user and their resources and all other users within the same public cloud can be achieved.
-- **Subnets**: This is a network within another network which makes transferring data more efficient by causing network traffic travel shorter distances without passing through unnecessary routers to reach its destination. 
-- **VLAN (Virtual Local Area Network)**:
+- **Subnets**: This is a network within another network which makes transferring data more efficient by causing network traffic travel shorter distances without passing through unnecessary routers to reach its destination. It is made up of a range of IP addresses within a network to be able to divide a part of it for private use. In a VPC private IP addresses are used that are not accessible via the public internet. 
+- **VLAN (Virtual Local Area Network)**: 
 - **VPN (Virtual Private Network)**:
 ## OSI Model
 ![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/8b25b433-167b-4568-81aa-bead8ed629aa)
