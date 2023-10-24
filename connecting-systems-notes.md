@@ -7,9 +7,9 @@ A Virtual Private Cloud is an isolated private cloud located within a public clo
 
 ## Definitions
 - **Public Cloud**: This is a platform managed by a third-party company that uses the standard cloud computing model to make services available to remote users around the world for example:
-      - AWS
-      - Microsoft Azure
-      - Google Cloud
+        - AWS
+        - Microsoft Azure
+        - Google Cloud
 - **Private Cloud**:
 ## The Standard Cloud Model
 ![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/a601ccaa-4a6e-4cad-b377-02c51644f333)
