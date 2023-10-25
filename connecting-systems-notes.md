@@ -37,6 +37,13 @@ Through the allocation of private IP subnet and a virtual communication construc
 ![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/8b25b433-167b-4568-81aa-bead8ed629aa)
 ***source: https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/***
 
-## Advantages and Disadvantages
+## Advantages
+- **Better performance**: Websites hosted from a VPC are known to typically perform better than those hosted on local premises.
+- **Increased Security**: With a combination of both private and public clouds, VPC's often have more recources for updating and maintaining infrastructure while also allowing access to a wider network.
+- **Scalability**: As VPC is hosted by a public cloud provider, customers can add more computing resourcing on demand.
 
-## Why use a VPC?
+## Disadvantages
+Despite having benefits, there are also some drawbacks such as:
+- cost
+- complexity
+- dependence on the internet
