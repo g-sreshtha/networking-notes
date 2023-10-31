@@ -7,8 +7,7 @@ There are **three** main components to the TLS protocol:
 - **Authentication**: which ensures that the parties exchanging information are the correct recipients and senders. In this process, a TLS certificate is used to authenticate the server's or the device's identity. This is a data file that contains important information that helps verify those identities as well as a statement of who issued the certificate and the certificate's expiry date.
 - **Integrity**: verifies whether the data has not been forged or tampered with. This is where the TLS handshake process verifies the TLS certificate and the possession of the private key from the server.
 
-**mutual TLS**, also known as two-way TLS, is a security protocol where server and client authenticate eachother before establishing a secure connection. This is different from TLS where the client authenticates the server only. 
-
+**Mutual TLS**, also known as two-way TLS, is a security protocol where server and client authenticate eachother before establishing a secure connection. This is different from TLS where the client authenticates the server only. In this protocol both client and server presents a TLS certificate and they both verifies eachother's certificates and the server grants access to the client. In the end, like the TLS protocol, they exchange information over encrypted TLS connection. 
 
 ***To implement mTLS, both the client and server must have a TLS certificate. The certificate contains the public key of the owner and is signed by a trusted certificate authority (CA), for example BastionXP CA.***
 
