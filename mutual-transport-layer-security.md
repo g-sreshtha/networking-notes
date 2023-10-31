@@ -13,9 +13,13 @@ There are **three** main components to the TLS protocol:
 TLS handshake             |  mTLS handshake
 :-------------------------:|:-------------------------:
 ![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/76fd3f83-0137-40ab-90bf-2498684f1572)| ![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/3e01b381-1876-4edc-936c-e064a8dd9af8)
+*source: https://docs.aws.amazon.com/whitepapers/latest/secure-content-delivery-amazon-cloudfront/viewer-https-configuration.html*** | ***source: https://www.f5.com/labs/learning-center/what-is-mtls*
 
 
-
+## Where is mTLS useful?
+- Identifying users into applications
+- Authorising devices on coorporate networks
+- Identify and authorise cloud security services to back end web servers.
 
 
 ## Example application which uses mTLS
