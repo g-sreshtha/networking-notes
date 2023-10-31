@@ -12,8 +12,8 @@ There are **three** main components to the TLS protocol:
 ***To implement mTLS, both the client and server must have a TLS certificate. The certificate contains the public key of the owner and is signed by a trusted certificate authority (CA), for example BastionXP CA.***
 TLS handshake             |  mTLS handshake
 :-------------------------:|:-------------------------:
-![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/76fd3f83-0137-40ab-90bf-2498684f1572)| ![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/3e01b381-1876-4edc-936c-e064a8dd9af8)
-*source: https://docs.aws.amazon.com/whitepapers/latest/secure-content-delivery-amazon-cloudfront/viewer-https-configuration.html*** | ***source: https://www.f5.com/labs/learning-center/what-is-mtls*
+<img src="https://github.com/g-sreshtha/networking-notes/assets/146075375/76fd3f83-0137-40ab-90bf-2498684f1572" width="300" height="600">|<img src="https://github.com/g-sreshtha/networking-notes/assets/146075375/3e01b381-1876-4edc-936c-e064a8dd9af8" width="300" height="600">
+*source: https://docs.aws.amazon.com/whitepapers/latest/secure-content-delivery-amazon-cloudfront/viewer-https-configuration.html* | *source: https://www.f5.com/labs/learning-center/what-is-mtls*
 
 
 ## Where is mTLS useful?
@@ -27,4 +27,9 @@ TLS handshake             |  mTLS handshake
 - Netflix uses it to secure communication between their microservices in its IT datacenters.
 - Tesla uses mTLS to secure communication between its cars and its servers.
 - The US Department of Defense is using mTLS to secure communication between its systems and its contractors' systems.
+  #### Case study:
+  The European banking legislation revised payment services directive intends to increase security for online banking services which will in turn boost innovation in the financial services sector. This legislation requires the customer to be able to interact with multiple financial account from different providers, from one app. By performing mTLS, this can be strongly authenticated. 
+
+
+
 
