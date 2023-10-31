@@ -3,10 +3,9 @@
 Before understanding what mTLS is, we must define Transport Layer Security (TLS). TLS is a cryptographic protocol that provides security through end to end encryption for communications over computer networks and the Internet. The primary use for TLS is encrypting communications over web servers and applications as well as being widely used in applications such as email and instant messaging. 
 
 There are **three** main components to the TLS protocol:
-- **Encryption**
-- **Authentication**
-- **Integrity**
-
+- **Encryption**: which hides important data to public users and third parties. TLS handshakes, which is a process that kicks off a communication session that uses TLS, use public key cryptography like RSA or Diffie-Hellman to authenticate the identitiy of the origin server. 
+- **Authentication**: which ensures that the parties exchanging information are the correct recipients and senders.
+- **Integrity**: verifies whether the data has not been forged or tampered with. 
 
 ***To implement mTLS, both the client and server must have a TLS certificate. The certificate contains the public key of the owner and is signed by a trusted certificate authority (CA), for example BastionXP CA.***
 
