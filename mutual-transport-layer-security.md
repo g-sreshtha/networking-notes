@@ -10,6 +10,9 @@ There are **three** main components to the TLS protocol:
 **Mutual TLS**, also known as two-way TLS, is a security protocol where server and client authenticate eachother before establishing a secure connection. This is different from TLS where the client authenticates the server only. In this protocol both client and server presents a TLS certificate and they both verifies eachother's certificates and the server grants access to the client. In the end, like the TLS protocol, they exchange information over encrypted TLS connection. 
 
 ***To implement mTLS, both the client and server must have a TLS certificate. The certificate contains the public key of the owner and is signed by a trusted certificate authority (CA), for example BastionXP CA.***
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+hi  |  hello
 
 
 
