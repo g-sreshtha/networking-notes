@@ -10,10 +10,11 @@ There are **three** main components to the TLS protocol:
 **Mutual TLS**, also known as two-way TLS, is a security protocol where server and client authenticate eachother before establishing a secure connection. This is different from TLS where the client authenticates the server only. In this protocol both client and server presents a TLS certificate and they both verifies eachother's certificates and the server grants access to the client. In the end, like the TLS protocol, they exchange information over encrypted TLS connection. 
 
 ***To implement mTLS, both the client and server must have a TLS certificate. The certificate contains the public key of the owner and is signed by a trusted certificate authority (CA), for example BastionXP CA.***
-TLS handshake             |  mTLS handshake
-:-------------------------:|:-------------------------:
-<img src="https://github.com/g-sreshtha/networking-notes/assets/146075375/76fd3f83-0137-40ab-90bf-2498684f1572" width="300" height="600">|<img src="https://github.com/g-sreshtha/networking-notes/assets/146075375/3e01b381-1876-4edc-936c-e064a8dd9af8" width="300" height="600">
-*source: https://docs.aws.amazon.com/whitepapers/latest/secure-content-delivery-amazon-cloudfront/viewer-https-configuration.html* | *source: https://www.f5.com/labs/learning-center/what-is-mtls*
+
+
+## mTLS handshake
+![image](https://github.com/g-sreshtha/networking-notes/assets/146075375/ea193e05-8cbf-43d7-9a6c-b71b0603e0ac)
+
 
 
 ## Where is mTLS useful?
